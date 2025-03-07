@@ -51,5 +51,5 @@ print(name)
 name = bool(name)
 print(name)
 name = ""
-name = bool(name)
+name = bool(name) #if the string is empty and you typecast it to a booleam, it will become false
 print(name)

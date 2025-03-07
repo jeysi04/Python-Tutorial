@@ -22,4 +22,10 @@ print(name2)
 ch = 'A'
 print(ch)
 
-print("Gumana ka naaaaa")
+# Exercise
+
+item = input("What item would you like to buy? ")
+price = float(input("What is the price of the product? "))
+quantity = int(input("How many would you like? "))
+total = price * quantity
+print(f"Your total is Php {total}")
